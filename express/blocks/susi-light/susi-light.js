@@ -11,8 +11,8 @@ const authParams = {
   dt: false,
   locale: getConfig().locale.ietf.toLowerCase(),
   response_type: 'code', // FIXME: to be finalized
-  // client_id: 'AdobeExpressWeb',
-  client_id: 'sentry-test-edu',
+  client_id: 'AdobeExpressWeb',
+  // client_id: 'sentry-test-edu',
   scope: 'AdobeID,openid',
 };
 const config = {
